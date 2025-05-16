@@ -1,0 +1,18 @@
+## Google Cloud 提供的 指令列介面（CLI）(GCloud)
+
+- gcloud 用來管理 Kubernetes「叢集」
+- 大約有 75% 的 GCP 資源都能透過 gcloud 管理
+- 除了 gcloud，還有其他 CLI 工具：
+  - gsutil：針對 Cloud Storage 的 CLI 工具
+  - bq：BigQuery 的 CLI 工具
+  - cbd：Cloud Bigtable 的 CLI 工具
+  - kubectl：用於 Kubernetes 中管理 pods、部署等資源
+    - 管理叢集內部的應用程式
+- 安裝使用
+  - gcloud 是 google cloud sdk 的一部分，安裝前電腦要先安裝 python
+  - 本地電腦不想安裝 sdk ，也可以透過 cloud shell 在瀏覽器中使用
+
+### 啟用
+
+下圖位置在瀏覽器的右上角
+![image](img/1.png)
